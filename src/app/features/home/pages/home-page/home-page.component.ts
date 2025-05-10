@@ -1,10 +1,10 @@
 import { Component } from '@angular/core'
-import { TextBoxComponent } from '../../../../shared/components/text-box/text-box.component'
+import { ModelInputFormComponent } from '../../components/model-input-form/model-input-form.component'
 
 @Component({
   standalone: true,
   selector: 'app-home-page',
-  imports: [TextBoxComponent],
+  imports: [ModelInputFormComponent],
   templateUrl: './home-page.component.html',
   styleUrl: './home-page.component.css',
 })
